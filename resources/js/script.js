@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    
+
     /* For the sticky navigation */
     $(".js--section-features").waypoint(
         function(direction) {
@@ -116,7 +116,7 @@ $(document).ready(function() {
         var nav = $(".js--main-nav");
         var icon = $(".js--nav-icon i");
 
-        nav.slideToggle(200);
+        nav.slideToggle(300);
 
         if (icon.hasClass("ion-navicon-round")) {
             icon.addClass("ion-close-round");
