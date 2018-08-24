@@ -126,4 +126,23 @@ $(document).ready(function() {
             icon.removeClass("ion-close-round");
         }
     });
+
+    /* Map stuff */
+
+    var map = new GMaps({
+        div: '.map',
+        lat: -33.8189486,
+        lng: 151.25,
+        zoom: 13
+    });
+
+    map.addMarker({
+        lat: -33.8189486,
+        lng: 151.20,
+        title: 'Naremburn',
+        infoWindow: {
+            content: '<p>Home Sweet Home</p>'
+        }
+    });
+
 });
